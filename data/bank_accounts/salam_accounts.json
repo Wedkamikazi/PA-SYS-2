@@ -1,0 +1,28 @@
+{
+    "accounts": [
+        {
+            "account_name": "Operating Account",
+            "bank_name": "ABC Bank",
+            "account_number": "123456789",
+            "iban": "SA1234567890123456",
+            "currency": "SAR",
+            "status": "Active"
+        },
+        {
+            "account_name": "Payroll Account",
+            "bank_name": "XYZ Bank",
+            "account_number": "987654321",
+            "iban": "SA6543210987654321",
+            "currency": "USD",
+            "status": "Active"
+        },
+        {
+            "account_name": "Marketing Expenses Account",
+            "bank_name": "DEF Bank",
+            "account_number": "112233445",
+            "iban": "SA1122334455667788",
+            "currency": "SAR",
+            "status": "Closed"
+        }
+    ]
+}

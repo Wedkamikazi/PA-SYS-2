@@ -1,0 +1,20 @@
+{
+    "accounts": [
+        {
+            "account_name": "Main Business Account",
+            "bank_name": "ABC Bank",
+            "account_number": "223344556",
+            "iban": "SA2233445566778899",
+            "currency": "SAR",
+            "status": "Active"
+        },
+        {
+            "account_name": "Reserve Fund Account",
+            "bank_name": "XYZ Bank",
+            "account_number": "556677889",
+            "iban": "SA5566778890011223",
+            "currency": "USD",
+            "status": "Active"
+        }
+    ]
+}

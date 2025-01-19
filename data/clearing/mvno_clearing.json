@@ -1,0 +1,124 @@
+{
+    "data": [
+        {
+            "Month": "January 2025",
+            "Transaction Number": "MVNO-2025-001",
+            "Vendor Name": "STC Pay",
+            "Amount": 1000000.00,
+            "Notes": "Regular transaction",
+            "Comments": "Standard case"
+        },
+        {
+            "Month": "January 2025",
+            "Transaction Number": "MVNO-2025-002",
+            "Vendor Name": "شركة الاتصالات السعودية",
+            "Amount": 500000.00,
+            "Notes": "Arabic full name",
+            "Comments": "UTF-8 test"
+        },
+        {
+            "Month": "January 2025",
+            "Transaction Number": "MVNO-2025-003",
+            "Vendor Name": "STC Pay",
+            "Amount": -75000.00,
+            "Notes": "Negative amount",
+            "Comments": "Reversal test"
+        },
+        {
+            "Month": "December 2024",
+            "Transaction Number": "MVNO-2024-150",
+            "Vendor Name": "Mixed English وعربي Name",
+            "Amount": 250000.00,
+            "Notes": "Mixed language test",
+            "Comments": "Multilingual support test"
+        },
+        {
+            "Month": "January 2025",
+            "Transaction Number": null,
+            "Vendor Name": "Null Test Vendor",
+            "Amount": 100000.00,
+            "Notes": "Null transaction number",
+            "Comments": "Testing null handling"
+        },
+        {
+            "Month": "January 2025",
+            "Transaction Number": "MVNO-2025-004",
+            "Vendor Name": "",
+            "Amount": 150000.00,
+            "Notes": "Empty vendor name",
+            "Comments": "Empty string test"
+        },
+        {
+            "Month": "January 2025",
+            "Transaction Number": "MVNO-2025-005",
+            "Vendor Name": "STC Pay",
+            "Amount": "1234.56",
+            "Notes": "Amount as string",
+            "Comments": "Type conversion test"
+        },
+        {
+            "Month": "January 2025",
+            "Transaction Number": "MVNO-2025-006",
+            "Vendor Name": "Vendor,With,Commas",
+            "Amount": 50000.00,
+            "Notes": "CSV injection test",
+            "Comments": "Security test"
+        },
+        {
+            "Month": "2025-01",
+            "Transaction Number": "MVNO-2025-007",
+            "Vendor Name": "Different Date Format",
+            "Amount": 75000.00,
+            "Notes": "Different month format",
+            "Comments": "Date format test"
+        },
+        {
+            "Month": "January 2025",
+            "Transaction Number": "MVNO-2025-008",
+            "Vendor Name": "     ",
+            "Amount": 25000.00,
+            "Notes": "Whitespace vendor name",
+            "Comments": "Whitespace test"
+        },
+        {
+            "Month": "January 2025",
+            "Transaction Number": "MVNO-2025-009",
+            "Vendor Name": "!@#$%^&*()",
+            "Amount": 12345.67,
+            "Notes": "Special chars only",
+            "Comments": "Character handling test"
+        },
+        {
+            "Month": "January 2025",
+            "Transaction Number": "MVNO-2025-010",
+            "Vendor Name": "Unicode Test ™®©",
+            "Amount": 99999.99,
+            "Notes": "Unicode symbols",
+            "Comments": "Extended character test"
+        },
+        {
+            "Month": "January 2025",
+            "Transaction Number": "MVNO-2025-011",
+            "Vendor Name": "Extremely precise amount",
+            "Amount": 1234.56789,
+            "Notes": "Testing decimal precision",
+            "Comments": "Precision handling test"
+        },
+        {
+            "Month": "January 2025",
+            "Transaction Number": "MVNO-2025-012",
+            "Vendor Name": "SQL Injection Test",
+            "Amount": 10000.00,
+            "Notes": "SELECT * FROM users;--",
+            "Comments": "DROP TABLE transactions;--"
+        },
+        {
+            "Month": "January 2025",
+            "Transaction Number": "MVNO-2025-013",
+            "Vendor Name": "Performance Test Vendor With Extremely Long Name That Exceeds Normal Limits And Should Test The UI's Ability To Handle Such Cases Without Breaking The Layout Or Causing Display Issues",
+            "Amount": 1.00,
+            "Notes": "This note is also extremely long and contains multiple sentences to test how the system handles long text fields. It should wrap properly and not cause any display issues in the table or detailed view.",
+            "Comments": "Similarly, this comment is very long and contains special characters like !@#$%^&*()_+ as well as numbers 1234567890 and symbols €£¥§©®™"
+        }
+    ]
+}

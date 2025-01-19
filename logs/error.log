@@ -1,0 +1,3 @@
+[2025-01-18 06:41:20] ERROR: Error updating all statuses: 'FileOperations' object has no attribute 'get_all_payments'
+[2025-01-18 06:41:21] ERROR: Error updating all statuses: 'FileOperations' object has no attribute 'get_all_payments'
+[2025-01-18 06:41:21] ERROR: Error updating all statuses: 'FileOperations' object has no attribute 'get_all_payments'
